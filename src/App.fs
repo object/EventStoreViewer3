@@ -6,7 +6,7 @@ open Elmish.HMR
 
 open Update
 
-Program.mkProgram init update HtmlView.view
+Program.mkProgram init update MinimalFulmaView.view
 |> Program.withDebugger
 |> Program.withReactBatched "elmish-app"
 |> Program.run

@@ -6,7 +6,9 @@ var path = require("path");
 
 module.exports = {
     mode: "development",
-    entry: "./src/App.fs.js",
+    entry: {
+        app: ["./src/App.fs.js", './scss/main.scss']
+    },
     output: {
         path: path.join(__dirname, "./public"),
         filename: "bundle.js",
@@ -17,5 +19,19 @@ module.exports = {
         port: 8080,
     },
     module: {
+        rules: [
+            {
+                test: /\.(sass|scss|css)$/,
+                use: [
+                    'style-loader',
+                    'css-loader',
+                    'sass-loader',
+                ],
+            },
+            {
+                test: /\.(png|jpg|jpeg|gif|svg|woff|woff2|ttf|eot)(\?.*)?$/,
+                use: ["file-loader"]
+            }
+        ]    
     }
 }

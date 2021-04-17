@@ -9,6 +9,7 @@
     <Compile Include="Update.fs" />
     <Compile Include="ViewUtils.fs" />
     <Compile Include="HtmlView.fs" />
+    <Compile Include="MinimalFulmaView.fs" />
     <Compile Include="App.fs" />
   </ItemGroup>
   <ItemGroup>
@@ -18,5 +19,6 @@
     <PackageReference Include="Fable.Elmish.HMR" Version="4.1.0" />
     <PackageReference Include="Fable.Elmish.React" Version="3.0.1" />
     <PackageReference Include="Fable.Fetch" Version="2.2.0" />
+    <PackageReference Include="Fulma" Version="2.10.0" />
   </ItemGroup>
 </Project>
