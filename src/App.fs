@@ -6,7 +6,7 @@ open Elmish.HMR
 
 open Update
 
-Program.mkProgram init update FulmaView.view
+Program.mkProgram init update FulmaViewWithComponents.view
 |> Program.withDebugger
 |> Program.withReactBatched "elmish-app"
 |> Program.run

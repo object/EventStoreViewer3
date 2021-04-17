@@ -2,7 +2,7 @@ import { Program_Internal_withReactBatchedUsing } from "./.fable/Fable.Elmish.Re
 import { lazyView2With } from "./.fable/Fable.Elmish.HMR.4.1.0/common.fs.js";
 import { ProgramModule_map, ProgramModule_runWith, ProgramModule_mkProgram } from "./.fable/Fable.Elmish.3.0.0/program.fs.js";
 import { update as update_1, init as init_1 } from "./Update.fs.js";
-import { view as view_2 } from "./FulmaView.fs.js";
+import { view as view_2 } from "./FulmaViewWithComponents.fs.js";
 import { Program_withDebuggerUsing, Debugger_ConnectionOptions, Debugger_showWarning, Debugger_showError } from "./.fable/Fable.Elmish.Debugger.3.2.0/debugger.fs.js";
 import { empty as empty_1, cons, singleton, ofArray } from "./.fable/fable-library.3.1.1/List.js";
 import { newGuid } from "./.fable/fable-library.3.1.1/Guid.js";
