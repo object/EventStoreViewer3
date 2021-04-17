@@ -1,3 +1,14 @@
+# Event Store Viewer: companion sample for my talk "Frontend in F#? Hold my beer!"
+
+This repository uses several branches:
+
+* main: initial branch, project scaffolding
+* 2-react: Simple Fable App with React
+* 3-MVU-Html: Added Elmish MVU pattern, basic HTML view
+* 4-Fulma: Added Fulma for Bulma CSS
+* 5-CSS: Customize CSS usage for better user experience
+* 6-ReactComponents: Added React components to pretify XML/JSON view
+
 # Fable Minimal App
 
 This is a small Fable app project so you can easily get started and add your own code easily in it.
