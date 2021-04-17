@@ -10,6 +10,7 @@
     <Compile Include="ViewUtils.fs" />
     <Compile Include="HtmlView.fs" />
     <Compile Include="MinimalFulmaView.fs" />
+    <Compile Include="FulmaView.fs" />
     <Compile Include="App.fs" />
   </ItemGroup>
   <ItemGroup>
